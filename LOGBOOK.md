@@ -74,3 +74,7 @@ Le même système va être appliqué pour mes items et ma vue details, je crée 
 
 Il ne reste donc plus qu'a stocké mes favoris (après reload). Pour cela j'utilise une dépendance que j'ai déjà utilisée avec vuex qui s'avèrent très pratique "vuex-persistedstate" (https://www.npmjs.com/package/vuex-persistedstate).
 
+# Github
+Pour finir le push sur mon repo, ce qui m'a couté quelques soucis par rapport à l'origin, ainsi que comprendre le fonctionnement upstream avec les ressources du document et cette vidéo (https://www.youtube.com/watch?v=pDmYNK68IEc&ab_channel=AlessandroCastellani).
+
+Grâce à ça j'ai bien pu comprendre et il me reste plus qu'a push aisément ces dernières lignes ! (victoire)
