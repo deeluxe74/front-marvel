@@ -70,7 +70,7 @@ a {
 }
 
 .bloc {
-    height: 80vh;
+    min-height: 80vh;
     padding: 2.5rem 5vw;
 }
 

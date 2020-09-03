@@ -211,4 +211,20 @@ button {
     filter: brightness(0%) blur(6px);
   }
 }
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+  html,body {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 3rem!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .flex-row {
+    flex-direction: column!important;
+  }
+}
 </style>

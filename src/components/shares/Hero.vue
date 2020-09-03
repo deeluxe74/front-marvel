@@ -1,5 +1,5 @@
 <template>
-    <div @mouseenter="display = true" @mouseleave="display = false" class="hero">
+    <div @mouseenter="display = true" @mouseleave="display = false" class="hero px-2">
         <img @click="updateFavorite(hero.id)" class="heart" :src="pathImg" alt="Add/delete to my favorites">
         <img class="profile-picture"
             :src="hero.thumbnail.path === 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available' ?
