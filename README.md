@@ -1,4 +1,4 @@
-Installation
+
 Pour commencer le test, clonez ce dépôt dans un dossier, et ouvrez un terminal dans le dossier du projet.
 Lancez-y la commande suivante afin d'installer les dépendances npm du projet :
 
