@@ -86,6 +86,10 @@ export default {
   },
   async created() {
     this.load = true;
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
     await axios.get(`http://gateway.marvel.com/v1/public/characters/${this.id}?ts=1&apikey=${publicKey}&hash=311843f0c7ec4abd6a923eeeea1cb05c&limit=1`)
       .then((response) => {
         // eslint-disable-next-line prefer-destructuring
